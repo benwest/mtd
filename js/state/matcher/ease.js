@@ -1,0 +1,1 @@
+module.exports = p => p < .5 ? 4 * p * p * p : ( p - 1 ) * ( 2 * p - 2 ) * ( 2 * p - 2 ) + 1;
